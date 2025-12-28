@@ -91,3 +91,54 @@ html {
 .animate-float {
   animation: float 4s ease-in-out infinite;
 }
+
+/* Slow pulse animation for cards */
+@keyframes pulse-slow {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.95;
+    transform: scale(1.02);
+  }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 6s ease-in-out infinite;
+}
+
+/* Tilt animation for cards */
+@keyframes tilt {
+  0%, 100% {
+    transform: rotate(0deg) scale(1);
+  }
+  25% {
+    transform: rotate(-2deg) scale(1.02);
+  }
+  75% {
+    transform: rotate(2deg) scale(1.02);
+  }
+}
+
+.animate-tilt {
+  animation: tilt 8s ease-in-out infinite;
+}
+
+/* Reverse tilt animation for cards */
+@keyframes tilt-reverse {
+  0%, 100% {
+    transform: rotate(0deg) scale(1);
+  }
+  25% {
+    transform: rotate(2deg) scale(1.02);
+  }
+  75% {
+    transform: rotate(-2deg) scale(1.02);
+  }
+}
+
+.animate-tilt-reverse {
+  animation: tilt-reverse 8s ease-in-out infinite;
+  animation-delay: 1s;
+}
