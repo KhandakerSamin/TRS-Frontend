@@ -3,6 +3,7 @@ import Hero from '@/components/Homepage/Hero';
 import Beyond from '@/components/Homepage/Beyond';
 import Team from '@/components/Homepage/Team';
 import Newspaper from '@/components/Homepage/Newspaper';
+import Peoplesay from '@/components/Homepage/Peoplesay';
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Beyond />
       <Team />
       <Newspaper />
+      <Peoplesay />
     </div>
   );
 }
