@@ -25,6 +25,7 @@ const Beyond = () => {
 
     return () => {
       if (sectionRef.current) {
+        // eslint-disable-next-line react-hooks/exhaustive-deps
         observer.unobserve(sectionRef.current);
       }
     };
@@ -71,7 +72,7 @@ const Beyond = () => {
           
           {/* Card 1 - The Ramjan Show (Full Width on Desktop) */}
           <div 
-            className={`lg:col-span-2 bg-[#03251E] rounded-3xl p-12 lg:p-20 
+            className={`lg:col-span-2 bg-[#03251E]  p-12 lg:p-20 
               flex items-center justify-center min-h-75 lg:min-h-87.5
               transition-all duration-1500 ease-out ${
               isVisible 
@@ -93,7 +94,7 @@ const Beyond = () => {
 
           {/* Card 2 - Boibrikkho */}
           <div 
-            className={`bg-[#03251E] rounded-3xl p-12 lg:p-16 
+            className={`bg-[#03251E]  p-12 lg:p-16 
               flex items-center justify-center min-h-70 lg:min-h-80
               transition-all duration-1500 ease-out ${
               isVisible 
@@ -115,7 +116,7 @@ const Beyond = () => {
 
           {/* Card 3 - Marketing Agency */}
           <div 
-            className={`bg-[#03251E] rounded-3xl p-12 lg:p-16 
+            className={`bg-[#03251E]  p-12 lg:p-16 
               flex items-center justify-center min-h-70 lg:min-h-80
               transition-all duration-1500 ease-out ${
               isVisible 
