@@ -100,10 +100,10 @@ const Hero = () => {
           </div>
 
           {/* Right Image */}
-          <div className={` relative transition-all duration-1000 ${
-            isLoaded ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10'
+          <div className={` relative transition-all duration-[1500ms] ease-out ${
+            isLoaded ? 'opacity-100 scale-100 rotate-0' : 'opacity-0 scale-75 -rotate-12'
           }`} style={{ transitionDelay: '400ms' }}>
-            <div className="relative w-full">
+            <div className="relative w-full animate-float">
               <Image
                 src="/hero.png"
                 alt="Hero"
