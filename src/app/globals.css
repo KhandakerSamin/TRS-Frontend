@@ -142,3 +142,22 @@ html {
   animation: tilt-reverse 8s ease-in-out infinite;
   animation-delay: 1s;
 }
+
+/* Float animation with different delays for newspaper logos */
+@keyframes float-delayed {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-float-delayed {
+  animation: float-delayed 5s ease-in-out infinite;
+}
+
+.animate-float-delayed-long {
+  animation: float-delayed 6s ease-in-out infinite;
+  animation-delay: 0.5s;
+}
