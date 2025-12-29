@@ -49,7 +49,7 @@ const Navbar = () => {
               <Link
                 key={link.name}
                 href={link.href}
-                className={`text-white font-medium text-sm lg:text-base 
+                className={`text-white   text-sm lg:text-base 
                   relative group transition-all duration-500 
                   hover:text-white ${
                   isLoaded 
