@@ -24,6 +24,7 @@ export default function Footer() {
 
     return () => {
       if (footerRef.current) {
+        // eslint-disable-next-line react-hooks/exhaustive-deps
         observer.unobserve(footerRef.current);
       }
     };
@@ -89,19 +90,19 @@ export default function Footer() {
             }`}
             style={{ transitionDelay: '500ms' }}
           >
-            <Link href="#" className="text-base hover:text-white/80 transition-all duration-300 flex items-center gap-2 group">
+            <Link href="https://www.facebook.com/theramjanshow" className="text-base hover:text-white/80 transition-all duration-300 flex items-center gap-2 group">
               Facebook <span className="text-lg group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300">↗</span>
             </Link>
-            <Link href="#" className="text-base hover:text-white/80 transition-all duration-300 flex items-center gap-2 group">
+            <Link href="https://www.youtube.com/@TheRamjanShowonYt" className="text-base hover:text-white/80 transition-all duration-300 flex items-center gap-2 group">
               YouTube <span className="text-lg group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300">↗</span>
             </Link>
-            <Link href="#" className="text-base hover:text-white/80 transition-all duration-300 flex items-center gap-2 group">
+            <Link href="https://www.instagram.com/theramjanshowpodcast?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D" className="text-base hover:text-white/80 transition-all duration-300 flex items-center gap-2 group">
               Instagram <span className="text-lg group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300">↗</span>
             </Link>
             <Link href="#" className="text-base hover:text-white/80 transition-all duration-300 flex items-center gap-2 group">
               LinkedIn <span className="text-lg group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300">↗</span>
             </Link>
-            <Link href="#" className="text-base hover:text-white/80 transition-all duration-300 flex items-center gap-2 group">
+            <Link href="https://www.tiktok.com/@the.ramjan.show" className="text-base hover:text-white/80 transition-all duration-300 flex items-center gap-2 group">
               TikTok <span className="text-lg group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300">↗</span>
             </Link>
           </div>
