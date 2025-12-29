@@ -76,7 +76,7 @@ export default function Footer() {
             <Link href="https://www.instagram.com/theramjanshowpodcast?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D" className="text-base hover:text-white/80 transition-all duration-300 flex items-center gap-2 group">
               Instagram <span className="text-lg group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300"><ArrowUpRight /></span>
             </Link>
-            <Link href="#" className="text-base hover:text-white/80 transition-all duration-300 flex items-center gap-2 group">
+            <Link href="https://www.linkedin.com/in/ramjanboibrikkho/" className="text-base hover:text-white/80 transition-all duration-300 flex items-center gap-2 group">
               LinkedIn <span className="text-lg group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300"><ArrowUpRight /></span>
             </Link>
             <Link href="https://www.tiktok.com/@the.ramjan.show" className="text-base hover:text-white/80 transition-all duration-300 flex items-center gap-2 group">
@@ -183,7 +183,7 @@ export default function Footer() {
             <Link href="https://www.instagram.com/theramjanshowpodcast?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D" className="text-base hover:text-white/80 transition-all duration-300 flex items-center gap-2 group">
               Instagram <span className="text-lg group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300"><ArrowUpRight /></span>
             </Link>
-            <Link href="#" className="text-base hover:text-white/80 transition-all duration-300 flex items-center gap-2 group">
+            <Link href="https://www.linkedin.com/in/ramjanboibrikkho/" className="text-base hover:text-white/80 transition-all duration-300 flex items-center gap-2 group">
               LinkedIn <span className="text-lg group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300"><ArrowUpRight /></span>
             </Link>
             <Link href="https://www.tiktok.com/@the.ramjan.show" className="text-base hover:text-white/80 transition-all duration-300 flex items-center gap-2 group">
