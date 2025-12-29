@@ -9,13 +9,28 @@ const dmSans = DM_Sans({
 });
 
 export const metadata = {
+  metadataBase: new URL('https://www.theramjanshow.com'),
   title: "The Ramjan Show - Deep Conversations With Visionaries",
   description: "Deep Conversations With Visionaries, Rebels, And Change-Makers. Weekly Episodes That Challenge Perspective And Ignite Curiosity.",
   keywords: "The Ramjan Show, podcast, interviews, visionaries, rebels, change-makers, deep conversations",
   authors: [{ name: "The Ramjan Show" }],
+  creator: "The Ramjan Show",
+  publisher: "The Ramjan Show",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
   openGraph: {
     title: "The Ramjan Show - Deep Conversations With Visionaries",
     description: "Deep Conversations With Visionaries, Rebels, And Change-Makers. Weekly Episodes That Challenge Perspective And Ignite Curiosity.",
+    url: 'https://www.theramjanshow.com',
     type: "website",
     locale: "en_US",
     siteName: "The Ramjan Show",
@@ -38,6 +53,9 @@ export const metadata = {
     icon: "/fav2.png",
     shortcut: "/fav2.png",
     apple: "/fav2.png",
+  },
+  verification: {
+    google: "your-google-verification-code",
   },
 };
 
