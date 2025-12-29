@@ -72,7 +72,7 @@ const Navbar = () => {
             style={{ transitionDelay: '500ms' }}
           >
             <Link
-              href="https://youtube.com"
+              href="https://m.youtube.com/@TheRamjanShowonYt"
               target="_blank"
               rel="opener northerner"
               onMouseEnter={() => setRotationCount(prev => prev + 1)}

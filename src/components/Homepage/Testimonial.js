@@ -24,6 +24,7 @@ export default function Testimonial() {
 
     return () => {
       if (sectionRef.current) {
+        // eslint-disable-next-line react-hooks/exhaustive-deps
         observer.unobserve(sectionRef.current);
       }
     };
@@ -36,6 +37,7 @@ export default function Testimonial() {
     }, 5000);
 
     return () => clearInterval(timer);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const testimonials = [
@@ -108,7 +110,7 @@ export default function Testimonial() {
               {testimonials.map((testimonial) => (
                 <div
                   key={testimonial.id}
-                  className="w-full flex-shrink-0 relative h-[500px] overflow-hidden"
+                  className="w-full shrink-0 relative h-125 overflow-hidden"
                 >
                   {/* Background Image */}
                   <Image
@@ -167,7 +169,7 @@ export default function Testimonial() {
           {testimonials.map((testimonial, index) => (
             <div
               key={testimonial.id}
-              className={`relative h-[400px] md:h-[750px] overflow-hidden group transition-all duration-700 ease-out ${
+              className={`relative h-100 md:h-187.5 overflow-hidden group transition-all duration-700 ease-out ${
                 isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
               }`}
               style={{ transitionDelay: `${600 + index * 200}ms` }}

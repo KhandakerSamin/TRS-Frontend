@@ -159,7 +159,8 @@ const Hero = () => {
             }`} style={{ transitionDelay: '800ms' }}>
               {/* Listen Now Button */}
               <Link
-                href="#listen"
+                href="https://m.youtube.com/@TheRamjanShowonYt"
+                target='_blank'
                 className="group inline-flex items-center justify-center gap-2 
                   bg-white text-action px-8 py-3.5 rounded-full font-medium text-base
                   shadow-lg hover:shadow-xl transition-all duration-300
@@ -172,7 +173,8 @@ const Hero = () => {
 
               {/* Browse Episode Button */}
               <Link
-                href="#episodes"
+                href="https://m.youtube.com/@TheRamjanShowonYt"
+                target='_blank'
                 className="group inline-flex items-center justify-center gap-2 
                   border-2 border-white text-white px-8 py-3.5 rounded-full font-medium text-base
                   backdrop-blur-sm 
@@ -186,16 +188,16 @@ const Hero = () => {
           </div>
 
           {/* Right Image */}
-          <div className={`relative flex-1 transition-all duration-1500 ease-out ${
+          <div className={`relative transition-all duration-1500 ease-out ${
             isLoaded ? 'opacity-100 scale-100 rotate-0' : 'opacity-0 scale-75 -rotate-12'
           }`} style={{ transitionDelay: '400ms' }}>
-            <div className="relative w-full max-w-none animate-float">
+            <div className="relative  w-full  max-w-none animate-float">
               <Image
                 src="/hero.png"
                 alt="Hero"
                 width={500}
                 height={600}
-                className="w-full h-auto"
+                className="w-120 h-auto"
                 priority
                 quality={100}
               />
