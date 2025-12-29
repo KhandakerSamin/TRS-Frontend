@@ -19,11 +19,20 @@ export const metadata = {
     type: "website",
     locale: "en_US",
     siteName: "The Ramjan Show",
+    images: [
+      {
+        url: "/trs-preview.png",
+        width: 1200,
+        height: 630,
+        alt: "The Ramjan Show Preview",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "The Ramjan Show - Deep Conversations With Visionaries",
     description: "Deep Conversations With Visionaries, Rebels, And Change-Makers. Weekly Episodes That Challenge Perspective And Ignite Curiosity.",
+    images: ["/trs-preview.png"],
   },
   icons: {
     icon: "/fav2.png",
