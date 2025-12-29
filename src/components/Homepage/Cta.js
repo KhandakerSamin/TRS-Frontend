@@ -39,9 +39,8 @@ export default function Cta() {
   };
 
   return (
-    <section 
-      ref={ctaRef}
-      className="bg-[#C5E8DC] py-20 px-4 overflow-hidden"
+    <section       id="contact"      ref={ctaRef}
+      className="bg-primary py-20 px-4 overflow-hidden"
     >
       <div className="container mx-auto max-w-6xl text-center">
         {/* Let's Connect Button */}

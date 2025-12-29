@@ -78,8 +78,7 @@ export default function Peoplesay() {
   const getNextIndex = () => (currentSlide + 1) % slides.length;
 
   return (
-    <section 
-      ref={sectionRef}
+    <section       id="review"      ref={sectionRef}
       className="bg-[#C5E8DC] py-16 md:py-20  overflow-hidden"
     >
       <div className=" mx-auto max-w-full">

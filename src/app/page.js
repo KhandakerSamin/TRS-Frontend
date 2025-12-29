@@ -4,6 +4,7 @@ import Beyond from '@/components/Homepage/Beyond';
 import Team from '@/components/Homepage/Team';
 import Newspaper from '@/components/Homepage/Newspaper';
 import Peoplesay from '@/components/Homepage/Peoplesay';
+import Testimonial from '@/components/Homepage/Testimonial';
 import Footer from '@/components/Global/Footer';
 import Cta from '@/components/Homepage/Cta';
 import SocialBrands from '@/components/Homepage/SocialBrands';
@@ -20,6 +21,7 @@ export default function Home() {
       <Beyond />
       <Team />
       <Newspaper />
+      <Testimonial />
       <Cta />
       <Footer />
     </div>

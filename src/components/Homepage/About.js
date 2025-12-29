@@ -31,7 +31,7 @@ const About = () => {
   }, []);
 
   return (
-    <section ref={sectionRef} className="relative w-full h-screen overflow-hidden">
+    <section id="about" ref={sectionRef} className="relative w-full h-screen overflow-hidden">
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"

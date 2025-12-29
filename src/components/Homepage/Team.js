@@ -53,7 +53,7 @@ const Team = () => {
   ];
 
   return (
-    <section ref={sectionRef} className="relative w-full min-h-screen bg-primary py-20 lg:py-32 overflow-hidden">
+    <section id="team" ref={sectionRef} className="relative w-full min-h-screen bg-primary py-20 lg:py-32 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header Section */}
