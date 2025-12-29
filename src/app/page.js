@@ -4,6 +4,7 @@ import Beyond from '@/components/Homepage/Beyond';
 import Team from '@/components/Homepage/Team';
 import Newspaper from '@/components/Homepage/Newspaper';
 import Peoplesay from '@/components/Homepage/Peoplesay';
+import Footer from '@/components/Global/Footer';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Team />
       <Newspaper />
       <Peoplesay />
+      <Footer />
     </div>
   );
 }
