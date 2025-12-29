@@ -102,7 +102,7 @@ export default function Peoplesay() {
           style={{ transitionDelay: '200ms' }}
         >
           <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl leading-tight">
-            <span className="text-[#003B3B]/60 font-light">Why People Love</span>
+            <span className="text-[#003B3B] font-light">Why People Love</span>
             <br />
             <span className="text-[#003B3B] font-bold">Ramjan Show?</span>
           </h2>
