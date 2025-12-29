@@ -84,7 +84,7 @@ const Newspaper = () => {
                   transitionDelay: `${600 + index * 150}ms`,
                 }}
               >
-                <div className="relative w-full h-20 lg:h-24 transition-all duration-500 animate-float-delayed">
+                <div className="relative w-full h-14 md:h-20 lg:h-24 transition-all duration-500 animate-float-delayed">
                   <Image
                     src={newspaper.image}
                     alt={`Newspaper ${newspaper.id}`}
@@ -108,7 +108,7 @@ const Newspaper = () => {
                 transitionDelay: '1200ms',
               }}
             >
-              <div className="relative w-full h-20 lg:h-24 transition-all duration-500 animate-float-delayed-long">
+              <div className="relative w-full h-14 md:h-20 lg:h-24 transition-all duration-500 animate-float-delayed-long">
                 <Image
                   src={newspapers[4].image}
                   alt="Newspaper 5"

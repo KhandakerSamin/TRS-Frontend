@@ -105,7 +105,7 @@ const Team = () => {
             }`}
             style={{ transitionDelay: '800ms' }}
           >
-            <div className="relative h-125 lg:h-full min-h-200">
+            <div className="relative h-100 lg:h-full lg:min-h-200">
               <Image
                 src={teamMembers[0].image}
                 alt={teamMembers[0].name}
@@ -169,7 +169,7 @@ const Team = () => {
             }`}
             style={{ transitionDelay: '1200ms' }}
           >
-            <div className="relative h-70 lg:h-100">
+            <div className="relative h-100 lg:h-100">
               <Image
                 src={teamMembers[2].image}
                 alt={teamMembers[2].name}

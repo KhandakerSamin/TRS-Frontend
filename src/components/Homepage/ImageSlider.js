@@ -21,7 +21,7 @@ export default function ImageSlider() {
             {images.map((image, index) => (
               <div
                 key={`first-${index}`}
-                className="relative w-64 h-48 md:w-80 md:h-60 lg:w-max lg:h-full shrink-0 overflow-hidden  transition-transform duration-300 hover:scale-103"
+                className="relative w-80 h-60 md:w-80 md:h-60 lg:w-max lg:h-full shrink-0 overflow-hidden transition-transform duration-300 hover:scale-103"
               >
                 <Image
                   src={image}
@@ -41,7 +41,7 @@ export default function ImageSlider() {
             {images.map((image, index) => (
               <div
                 key={`second-${index}`}
-                className="relative w-64 h-48 md:w-80 md:h-60 lg:w-180 lg:h-100 shrink-0  overflow-hidden transition-transform duration-300 hover:scale-103"
+                className="relative w-80 h-60 md:w-80 md:h-60 lg:w-180 lg:h-100 shrink-0  overflow-hidden transition-transform duration-300 hover:scale-103"
               >
                 <Image
                   src={image}
@@ -61,7 +61,7 @@ export default function ImageSlider() {
             {images.map((image, index) => (
               <div
                 key={`third-${index}`}
-                className="relative w-64 h-48 md:w-80 md:h-60 lg:w-96 lg:h-72 shrink-0  overflow-hidden  transition-transform duration-300 hover:scale-105"
+                className="relative w-80 h-60 md:w-80 md:h-60 lg:w-96 lg:h-72 shrink-0  overflow-hidden  transition-transform duration-300 hover:scale-105"
               >
                 <Image
                   src={image}

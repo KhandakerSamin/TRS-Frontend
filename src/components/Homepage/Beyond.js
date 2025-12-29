@@ -72,8 +72,8 @@ const Beyond = () => {
           
           {/* Card 1 - The Ramjan Show (Full Width on Desktop) */}
           <div 
-            className={`lg:col-span-2 bg-[#03251E]  p-12 lg:p-20 
-              flex items-center justify-center min-h-75 lg:min-h-87.5
+            className={`lg:col-span-2 bg-[#03251E] p-8 lg:p-20 
+              flex items-center justify-center min-h-62.5 lg:min-h-87.5
               transition-all duration-1500 ease-out ${
               isVisible 
                 ? 'opacity-100 translate-y-0 rotate-0' 
@@ -81,13 +81,13 @@ const Beyond = () => {
             }`}
             style={{ transitionDelay: '600ms' }}
           >
-            <div className="relative w-full max-w-md animate-pulse-slow">
+            <div className="relative flex justify-center w-full max-w-md animate-pulse-slow">
               <Image
                 src="/trs-logo.svg"
                 alt="The Ramjan Show"
                 width={400}
                 height={150}
-                className="w-full h-auto"
+                className="w-48 h-32 md:w-75 md:h-50"
               />
             </div>
           </div>
@@ -103,21 +103,21 @@ const Beyond = () => {
             }`}
             style={{ transitionDelay: '900ms' }}
           >
-            <div className="relative w-full max-w-xs animate-tilt">
+            <div className="relative flex justify-center w-full max-w-xs animate-tilt">
               <Image
                 src="/boibrikkho.svg"
                 alt="Boibrikkho"
                 width={250}
                 height={150}
-                className="w-full h-auto"
+                className="w-28 h-40 md:w-35 md:h-60"
               />
             </div>
           </div>
 
           {/* Card 3 - Marketing Agency */}
           <div 
-            className={`bg-[#03251E]  p-12 lg:p-16 
-              flex items-center justify-center min-h-70 lg:min-h-80
+            className={`bg-[#03251E] p-8 lg:p-16 
+              flex items-center justify-center min-h-62.5 lg:min-h-80
               transition-all duration-1500 ease-out ${
               isVisible 
                 ? 'opacity-100 translate-x-0 scale-100' 
@@ -125,13 +125,13 @@ const Beyond = () => {
             }`}
             style={{ transitionDelay: '1200ms' }}
           >
-            <div className="relative w-full max-w-xs animate-tilt-reverse">
+            <div className="relative flex justify-center w-full max-w-xs animate-tilt-reverse">
               <Image
                 src="/merketing.svg"
                 alt="Marketing Agency"
                 width={250}
                 height={150}
-                className="w-full h-auto"
+                className="w-48 h-32 md:w-70 md:h-50"
               />
             </div>
           </div>
