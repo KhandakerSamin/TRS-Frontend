@@ -9,8 +9,27 @@ const dmSans = DM_Sans({
 });
 
 export const metadata = {
-  title: "The Ramjan Show",
-  description: "",
+  title: "The Ramjan Show - Deep Conversations With Visionaries",
+  description: "Deep Conversations With Visionaries, Rebels, And Change-Makers. Weekly Episodes That Challenge Perspective And Ignite Curiosity.",
+  keywords: "The Ramjan Show, podcast, interviews, visionaries, rebels, change-makers, deep conversations",
+  authors: [{ name: "The Ramjan Show" }],
+  openGraph: {
+    title: "The Ramjan Show - Deep Conversations With Visionaries",
+    description: "Deep Conversations With Visionaries, Rebels, And Change-Makers. Weekly Episodes That Challenge Perspective And Ignite Curiosity.",
+    type: "website",
+    locale: "en_US",
+    siteName: "The Ramjan Show",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "The Ramjan Show - Deep Conversations With Visionaries",
+    description: "Deep Conversations With Visionaries, Rebels, And Change-Makers. Weekly Episodes That Challenge Perspective And Ignite Curiosity.",
+  },
+  icons: {
+    icon: "/fav2.png",
+    shortcut: "/fav2.png",
+    apple: "/fav2.png",
+  },
 };
 
 export default function RootLayout({ children }) {
